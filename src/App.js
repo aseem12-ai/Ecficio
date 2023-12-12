@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import React from 'react'
+import {BrowserRouter as Router,Routes,Route, NavLink} from 'react-router-dom'
+import Home from './Home'
+import PaymentSuccess from './PaymentSuccess'
+import Navbar from './Navbar'
 import './App.css';
+import Register from './Register'
+import Events from './Events/Events'
+import Comp from './comp/Comp'
+import Wpd from './wpd/WPD'
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/register' element={<Register/>}/>
+        <Route path='/events' element={<Comp/>}/>
+        <Route path='/competitions' element={<Events/>}/>
+        <Route path='/workshops' element={<Wpd/>}/>
+        
+      </Routes>
+    </Router>
+  )
 }
 
-export default App;
+export default App
