@@ -39,10 +39,16 @@ function Events() {
       <div className='temp text-center '>
         <div style={{fontSize:"2em"}}><b>LEVEL - 1</b></div>
       <div className='box1'>
-        <div className='row headings'>
-          <div className='col float-start'>MY BIG IDEA</div>
-          <div className='col float-end'>14 DEC 2023</div>
-          </div>
+        <div style={{fontSize:"4VW",paddingBottom:"2vw",fontWeight:"bold"}}>MY BIG IDEA COMPETITION</div>
+        <div style={{display:"flex",justifyContent:"space-around",alignContent:"center",paddingBottom:"2vw"}}>
+                    <div style={{fontSize:"1.5vw"}}> <span >Date</span>: 14th dec 2023 (D1) 
+                   </div>
+                    <div style={{fontSize:"1.5vw"}}> <span >Time</span> : 10:00 a.m to 5:00 p.m D1
+
+
+                    		</div>
+                    <div style={{fontSize:"1.5vw"}}> <span >Venue</span> : A-117 & 118</div>
+                </div>
           <img src={Big} alt="" />
 
 
@@ -52,7 +58,7 @@ function Events() {
         </div>
       </div>
       <div>
-        <a href='' className='reg-container' >
+        <a href='https://docs.google.com/forms/d/e/1FAIpQLSeDgaT2ZlR2KB5RdUS-YHq-d1P80EkWBXvZy2yGQ8E_8m3dyw/viewform' className='reg-container' >
 <button className='reg' style={{background:"#fff"}}>REGISTER NOW</button>
 </a>
       </div>
@@ -74,11 +80,24 @@ function Events() {
   <div className='temp text-center '>
        <div style={{fontSize:"2em"}}><b>LEVEL - 2</b></div>
       <div className='box1'>
-        <div className='row headings'>
-          <div className='col float-start'>Parishkar
-</div>
-          <div className='col float-end'>14 DEC 2023</div>
-          </div>
+        <div style={{fontSize:"4VW",paddingBottom:"2vw",fontWeight:"bold"}}>PARISHKAR</div>
+        <div style={{display:"flex",justifyContent:"space-around",alignContent:"center",paddingBottom:"2vw"}}>
+                    <div style={{fontSize:"1.5vw"}}> <span >Date</span>: 14th dec 2023 (D1) 
+                    <br />15th dec 2023 (D2) 
+                    <br />
+                    16th dec 2023 (D3) 
+                   </div>
+                    <div style={{fontSize:"1.5vw"}}> <span >Time</span> : 10:00 a.m to 5:00 p.m D1
+                    <br />
+10:00 a.m to 5:00 p.m D2
+<br />
+10:00 a.m to 3:00 p.m D3
+
+
+
+                    		</div>
+                    <div style={{fontSize:"1.5vw"}}> <span >Venue</span> : C-209 & 210</div>
+                </div>
           <img src={parishkar} alt="" />
 
 
@@ -89,12 +108,25 @@ function Events() {
         
       </div>
        <div className='box1'>
-        <div className='row headings'>
-          <div className='col float-start'>Start up Idea Challenge
-</div>
-          <div className='col float-end'>14 DEC 2023</div>
+          <div style={{fontSize:"4VW",paddingBottom:"2vw",fontWeight:"bold"}}>STARTUP IDEA COMPETITION</div>
+        <div style={{display:"flex",justifyContent:"space-around",alignContent:"center",paddingBottom:"2vw"}}>
+                    <div style={{fontSize:"1.5vw"}}> <span >Date</span>: 14th dec 2023 (D1) 
+                    <br />15th dec 2023 (D2) 
+                    <br />
+                    16th dec 2023 (D3) 
+                   </div>
+                    <div style={{fontSize:"1.5vw"}}> <span >Time</span> :		10:00 a.m to 5:00 p.m D2
+                    <br />
+10:00 a.m to 3:00 p.m D3	
+
+                    
+
+
+
+                    		</div>
+                    <div style={{fontSize:"1.5vw"}}> <span >Venue</span> : A117 & 118</div>
+                </div>
           <img src={startup} alt="" />
-          </div>
 
 
         <div className='contents ' style={{alignItems:"flex-start"}}>

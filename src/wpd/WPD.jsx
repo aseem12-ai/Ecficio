@@ -11,6 +11,9 @@ import Ellipse2 from '../assets/Ellipse 13 (2).svg';
 import Img from '../assets/img_avatar.png';
 import Ellipse3 from '../assets/Ellipse 13 (3).svg';
 import GDSC from '../assets/GDSC.png';
+import p2 from '../assets/pan-2.jpg';
+import p3 from '../assets/pan-3.jpg';
+import p4 from '../assets/pan-4.jpg';
 import A from '../assets/1.jpeg';
 import Navbar  from '../Navbar'
 import Footer1 from '../Footer1/Footer1'
@@ -129,7 +132,7 @@ function WPD() {
         alignItems:"center",
         paddingLeft:"1em",
         margin:"0.01em"}}>
-    <img src={Img} class="card-img-top" alt="..."/>
+    <img src={p2} class="card-img-top" alt="..."/>
     
     {/* <h5>C.E.O of PerspectAI.</h5> */}
     </div>
@@ -180,7 +183,7 @@ function WPD() {
         flexDirection:"column",
         alignItems:"center",
         paddingLeft:"1em",margin:"0.01em"}}>
-    <img src={Img} class="card-img-top" alt="..."/>
+    <img src={p3} class="card-img-top" alt="..."/>
    
     {/* <h5>C.E.O of PerspectAI.</h5> */}
     </div>
@@ -236,7 +239,7 @@ function WPD() {
         flexDirection:"column",
         alignItems:"center",
         paddingLeft:"1em",margin:"0.01em"}}>
-    <img src={Img} class="card-img-top" alt="..."/>
+    <img src={p4} class="card-img-top" alt="..."/>
     
     {/* <h5>C.E.O of PerspectAI.</h5> */}
     </div>

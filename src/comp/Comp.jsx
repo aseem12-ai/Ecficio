@@ -45,12 +45,15 @@ function Comp() {
                 justifyContent:"center",
                 
                 alignItems:"center",
-                flexDirection:"column",color:"#fffbf5"
+                flexDirection:"column",color:"white"
             }}>
                     <h6 className='col float-start' style={{alignItems:"center",textAlign:"center" , fontSize:"3.5vw"}} >REVERSE SHARK TANK</h6>
-                <div style={{display:"flex",justifyContent:"space-between",alignContent:"center"}}>
-                    <div>Date : DD/MM/YYY</div>
-                    <div>Time : 00:00:00</div>
+                <div style={{display:"flex",justifyContent:"space-around",alignContent:"center",paddingBottom:"2vw"}}>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Date</span>: 15th dec 2023 (D2) 
+                    <br />   16th dec 2023 (D3)</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Time</span> :10:00 a.m to 5:00 p.m D2 
+                    <br />10:00 a.m to 3:00 p.m D3	</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Venue</span> :  APJ Abdul kalam Audi & A001 </div>
                 </div>
                 <img src={Reverse} alt="" />
 
@@ -76,12 +79,17 @@ function Comp() {
                 justifyContent:"center",
                 
                 alignItems:"center",
-                flexDirection:"column",color:"#ffc5c5"
+                flexDirection:"column",color:"white"
             }}>
                     <h6 className='col float-start' style={{alignItems:"center",textAlign:"center",fontSize:"3.5vw" }} >Shadows and Secrets</h6>
-                <div style={{display:"flex",justifyContent:"space-between",alignContent:"center"}}>
-                    <div>Date : DD/MM/YYY</div>
-                    <div>Time : 00:00:00</div>
+                 <div style={{display:"flex",justifyContent:"space-around",alignContent:"center",paddingBottom:"2vw"}}>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Date</span>: NA
+                    <br />  NA</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Time</span> :10:00 a.m to 1:00 p.m
+
+
+                    <br />10:00 a.m to 3:00 p.m	</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Venue</span> : NA</div>
                 </div>
                 <img src={shadow} alt="" />
 
@@ -105,9 +113,14 @@ function Comp() {
                 flexDirection:"column",color:"#f1eaff"
             }}>
                     <h6 className='col float-start' style={{alignItems:"center",textAlign:"center",fontSize:"3.5vw"}} >Revamp</h6>
-                <div style={{display:"flex",justifyContent:"space-between",alignContent:"center"}}>
-                    <div>Date : DD/MM/YYY</div>
-                    <div>Time : 00:00:00</div>
+                 <div style={{display:"flex",justifyContent:"space-around",alignContent:"center",paddingBottom:"2vw"}}>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Date</span>: 15th dec 2023 (D2) 
+                    <br />   16th dec 2023 (D3)</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Time</span> : 10:00 a.m to 5:00 p.m D2
+
+
+                    <br />10:00 a.m to 3:00 p.m D3		</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Venue</span> : B-214 & B-215 </div>
                 </div>
                 <img src={revamp} alt="" />
 
@@ -127,12 +140,17 @@ function Comp() {
                 justifyContent:"center",
                 
                 alignItems:"center",
-                flexDirection:"column",color:"#ffd9c0"
+                flexDirection:"column",color:"white"
             }}>
                     <h6 className='col float-start' style={{alignItems:"center",textAlign:"center",fontSize:"3.5vw"}} >BRAND BLEND</h6>
-                <div style={{display:"flex",justifyContent:"space-between",alignContent:"center"}}>
-                    <div>Date : DD/MM/YYY</div>
-                    <div>Time : 00:00:00</div>
+                <div style={{display:"flex",justifyContent:"space-around",alignContent:"center",paddingBottom:"2vw"}}>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Date</span>: 15th dec 2023 (D2) 
+                    <br />   16th dec 2023 (D3)</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Time</span> : 10:00 a.m to 5:00 p.m D2
+
+
+                    <br />10:00 a.m to 3:00 p.m D3		</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Venue</span> :Open Air Audi</div>
                 </div>
                 <img src={Brand_blend} alt="" />
 
@@ -153,12 +171,17 @@ function Comp() {
                 justifyContent:"center",
                 
                 alignItems:"center",
-                flexDirection:"column",color:"#ddffbb"
+                flexDirection:"column",color:"white"
             }}>
                     <h6 className='col float-start' style={{alignItems:"center",textAlign:"center",fontSize:"3.5vw"}} >ENTREQUEST</h6>
-                <div style={{display:"flex",justifyContent:"space-between",alignContent:"center"}}>
-                    <div>Date : DD/MM/YYY</div>
-                    <div>Time : 00:00:00</div>
+               <div style={{display:"flex",justifyContent:"space-around",alignContent:"center",paddingBottom:"2vw"}}>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Date</span>: 15th dec 2023 (D2) 
+                    <br />   16th dec 2023 (D3)</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Time</span> : 10:00 a.m to 5:00 p.m D2
+
+
+                    <br />10:00 a.m to 3:00 p.m D3		</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Venue</span> : A-301 & A-302</div>
                 </div>
                 <img src={EntreQuest} alt="" />
 
@@ -180,12 +203,17 @@ function Comp() {
                 justifyContent:"center",
                 
                 alignItems:"center",
-                flexDirection:"column",color:"#f7c8e0"
+                flexDirection:"column",color:"white"
             }}>
                     <h6 className='col float-start' style={{alignItems:"center",textAlign:"center",fontSize:"3.5vw"}} >ADJAM</h6>
-                <div style={{display:"flex",justifyContent:"space-between",alignContent:"center"}}>
-                    <div>Date : DD/MM/YYY</div>
-                    <div>Time : 00:00:00</div>
+                <div style={{display:"flex",justifyContent:"space-around",alignContent:"center",paddingBottom:"2vw"}}>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Date</span>: 15th dec 2023 (D2) 
+                    <br />   16th dec 2023 (D3)</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Time</span> : 10:00 a.m to 5:00 p.m D2
+
+
+                    <br />10:00 a.m to 3:00 p.m D3		</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Venue</span> : B-306</div>
                 </div>
                 <img src={Ad_Jam} alt="" />
 
@@ -199,6 +227,9 @@ function Comp() {
 
 
                 </div>
+                 <a href='https://docs.google.com/forms/d/e/1FAIpQLScvlIm3lEtDbR-niFm180fpjz8L-eXyl3m_tnlU8aHzcP3kSQ/viewform?usp=sharing' className='reg-container'>
+<button className='reg'>REGISTER NOW!</button>
+</a>
             </div>
             
             <Footer1/>
