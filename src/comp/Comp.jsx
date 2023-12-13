@@ -1,11 +1,13 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
-import Ellipse from '../assets/Ellipse.svg';
 import './Comp.css';
-import Line1 from '../assets/Line1.svg';
-import Line2 from '../assets/Line 11.svg';
 import Navbar from '../Navbar';
 import Footer1 from '../Footer1/Footer1';
+import Ad_Jam from '../Events_logo/Ad-JAM.png'
+import Brand_blend from '../Events_logo/Brand_Blend.png'
+import EntreQuest from '../Events_logo/EntreQuest.png'
+import Reverse from '../Events_logo/Reverse Shark Tank.png'
+import shadow from '../Events_logo/shadow&secrets ffposter.png'
 
 
 
@@ -49,6 +51,7 @@ function Comp() {
                     <div>Date : DD/MM/YYY</div>
                     <div>Time : 00:00:00</div>
                 </div>
+                <img src={Reverse} alt="" />
 
                 </div>
                 <div>
@@ -74,11 +77,12 @@ function Comp() {
                 alignItems:"center",
                 flexDirection:"column",color:"#ffc5c5"
             }}>
-                    <h6 className='col float-start' style={{alignItems:"center",textAlign:"center",fontSize:"3.5vw" }} >SUITS</h6>
+                    <h6 className='col float-start' style={{alignItems:"center",textAlign:"center",fontSize:"3.5vw" }} >Shadows and Secrets</h6>
                 <div style={{display:"flex",justifyContent:"space-between",alignContent:"center"}}>
                     <div>Date : DD/MM/YYY</div>
                     <div>Time : 00:00:00</div>
                 </div>
+                <img src={shadow} alt="" />
 
                 </div>
                 <div>
@@ -86,7 +90,8 @@ function Comp() {
                 </div>
                     <br></br>
                 <div className='contents' style={{color:"#ffc5c5"}}>
-                   Lock and load, detective. This crime scene is ruddy RED and BLOODY. Gather around your trusted few, put on the best impression of your favourite spy and huddle around to search for truth. Collect evidence, interrogate both suspects and victims, dig through the lies and emerge with the answer that hides in plain sight
+                  Lock and load, detective. This crime scene is ruddy RED and BLOODY. Gather around your trusted few, put on the best impression of your favourite spy and huddle around to search for truth. Collect evidence, interrogate both suspects and victims, dig through the lies and emerge with the answer that hides in plain sight.
+
 
                 </div>
             </div>
@@ -127,6 +132,7 @@ function Comp() {
                     <div>Date : DD/MM/YYY</div>
                     <div>Time : 00:00:00</div>
                 </div>
+                <img src={Brand_blend} alt="" />
 
                 </div>
                 <div>
@@ -152,6 +158,7 @@ function Comp() {
                     <div>Date : DD/MM/YYY</div>
                     <div>Time : 00:00:00</div>
                 </div>
+                <img src={EntreQuest} alt="" />
 
                 </div>
                 <div>
@@ -178,6 +185,7 @@ function Comp() {
                     <div>Date : DD/MM/YYY</div>
                     <div>Time : 00:00:00</div>
                 </div>
+                <img src={Ad_Jam} alt="" />
 
                 </div>
                 <div>

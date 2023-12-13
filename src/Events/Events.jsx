@@ -1,14 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import Ellipse from   '../assets/Ellipse.svg'
 import './Events.css';
-import Line1 from '../assets/Line1.svg';
-import Arrow from '../assets/Arrow 1.svg'
-// import Comp2 from './Comp2';
-import Line2 from '../assets/Line 11.svg';
-import Line3 from '../assets/Line 9.svg';
 import Navbar from '../Navbar';
 import Footer1 from '../Footer1/Footer1';
+import startup from '../Events_logo/Startup Idea Competition.png'
+
+
+
+
 function Events() {
   return (
 
@@ -36,7 +35,7 @@ function Events() {
         </div>
         </form>
       <div className='temp text-center '>
-        <div>LEVEL - 1</div>
+        <div style={{fontSize:"2em"}}><b>LEVEL - 1</b></div>
       <div className='box1'>
         <div className='row headings'>
           <div className='col float-start'>MY BIG IDEA</div>
@@ -70,7 +69,7 @@ function Events() {
 
 
   <div className='temp text-center '>
-        <div>LEVEL - 2</div>
+       <div style={{fontSize:"2em"}}><b>LEVEL - 2</b></div>
       <div className='box1'>
         <div className='row headings'>
           <div className='col float-start'>Parishkar
@@ -90,6 +89,7 @@ function Events() {
           <div className='col float-start'>Start up Idea Challenge
 </div>
           <div className='col float-end'>14 DEC 2023</div>
+          <img src={startup} alt="" />
           </div>
 
 

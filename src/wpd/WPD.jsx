@@ -140,7 +140,7 @@ function WPD() {
       justifyContent:"center",
       alignContent:"center",
       flexDirection:"column"}}>
-        <h3 style={{color:"#080808",paddingTop:"1em"}}>Mr. Madhu Vadlamani
+        <h3 style={{color:"#080808",paddingTop:"1em",marginTop:"2vw"}}>Mr. Madhu Vadlamani
   <span style={{fontSize:'0.7em'}}>Global Data Center</span>.</h3>
         {/* <h1 class="card-title" style={{marginRight:"1.2em",paddingTop:"1em"}}></h1> */}
         <p class="card-text" style={{paddingTop:"1em",wordSpacing:"0.5em",fontSize:"3vw"}}>Embark on a data-driven journey with Mr. Madhu Vadlamani, a dynamic panelist at GDSC Talks. Hailing from the vibrant city of Hyderabad, Mr Madhu is not just a GDC (Global Data Center) employee; he's the embodiment of an "employee with an entrepreneurial mindset." With a robust skill set encompassing Data Analytics, Artificial Intelligence, Cloud Computing, Content Management, and Business Intelligence. His professional voyage is a testament to his commitment to pushing the boundaries of technology, making him a beacon of inspiration at the intersection of analytics and entrepreneurship.
