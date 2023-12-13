@@ -8,6 +8,7 @@ import Brand_blend from '../Events_logo/Brand_Blend.png'
 import EntreQuest from '../Events_logo/EntreQuest.png'
 import Reverse from '../Events_logo/Reverse Shark Tank.png'
 import shadow from '../Events_logo/shadow&secrets ffposter.png'
+import revamp from '../Events_logo/Revamp.png'
 
 
 
@@ -103,11 +104,12 @@ function Comp() {
                 alignItems:"center",
                 flexDirection:"column",color:"#f1eaff"
             }}>
-                    <h6 className='col float-start' style={{alignItems:"center",textAlign:"center",fontSize:"3.5vw"}} >OPERATION REDO</h6>
+                    <h6 className='col float-start' style={{alignItems:"center",textAlign:"center",fontSize:"3.5vw"}} >Revamp</h6>
                 <div style={{display:"flex",justifyContent:"space-between",alignContent:"center"}}>
                     <div>Date : DD/MM/YYY</div>
                     <div>Time : 00:00:00</div>
                 </div>
+                <img src={revamp} alt="" />
 
                 </div>
                 <div>

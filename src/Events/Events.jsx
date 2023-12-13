@@ -4,6 +4,8 @@ import './Events.css';
 import Navbar from '../Navbar';
 import Footer1 from '../Footer1/Footer1';
 import startup from '../Events_logo/Startup Idea Competition.png'
+import Big from '../Events_logo/My Big Idea (1).png'
+import parishkar from '../Events_logo/Parishkaar (1).png'
 
 
 
@@ -41,6 +43,7 @@ function Events() {
           <div className='col float-start'>MY BIG IDEA</div>
           <div className='col float-end'>14 DEC 2023</div>
           </div>
+          <img src={Big} alt="" />
 
 
         <div className='contents ' style={{alignItems:"flex-start"}}>
@@ -76,6 +79,7 @@ function Events() {
 </div>
           <div className='col float-end'>14 DEC 2023</div>
           </div>
+          <img src={parishkar} alt="" />
 
 
         <div className='contents ' style={{alignItems:"flex-start"}}>
