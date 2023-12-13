@@ -41,13 +41,13 @@ function Events() {
       <div className='box1'>
         <div style={{fontSize:"4VW",paddingBottom:"2vw",fontWeight:"bold"}}>MY BIG IDEA COMPETITION</div>
         <div style={{display:"flex",justifyContent:"space-around",alignContent:"center",paddingBottom:"2vw"}}>
-                    <div style={{fontSize:"1.5vw"}}> <span >Date</span>: 14th dec 2023 (D1) 
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"darkblue",fontWeight:"bold"}} >Date</span>: 14th DEC 2023 (D1) 
                    </div>
-                    <div style={{fontSize:"1.5vw"}}> <span >Time</span> : 10:00 a.m to 5:00 p.m D1
+                    <div style={{fontSize:"1.5vw"}}> <span  style={{color:"darkblue",fontWeight:"bold"}}>Time</span> : 10:00AM to 5:00PM (D1)
 
 
                     		</div>
-                    <div style={{fontSize:"1.5vw"}}> <span >Venue</span> : A-117 & 118</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"darkblue",fontWeight:"bold"}}>Venue</span> : A-117 & 118</div>
                 </div>
           <img src={Big} alt="" />
 
@@ -82,21 +82,19 @@ function Events() {
       <div className='box1'>
         <div style={{fontSize:"4VW",paddingBottom:"2vw",fontWeight:"bold"}}>PARISHKAR</div>
         <div style={{display:"flex",justifyContent:"space-around",alignContent:"center",paddingBottom:"2vw"}}>
-                    <div style={{fontSize:"1.5vw"}}> <span >Date</span>: 14th dec 2023 (D1) 
-                    <br />15th dec 2023 (D2) 
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"darkblue",fontWeight:"bold"}}>Date</span>:15th DEC 2023 (D2) 
                     <br />
-                    16th dec 2023 (D3) 
+                    16th DEC 2023 (D3) 
                    </div>
-                    <div style={{fontSize:"1.5vw"}}> <span >Time</span> : 10:00 a.m to 5:00 p.m D1
-                    <br />
-10:00 a.m to 5:00 p.m D2
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"darkblue",fontWeight:"bold"}}>Time</span> : 
+10:00AM to 5:00 p.m (D2)
 <br />
-10:00 a.m to 3:00 p.m D3
+10:00AM to 3:00PM (D3)
 
 
 
                     		</div>
-                    <div style={{fontSize:"1.5vw"}}> <span >Venue</span> : C-209 & 210</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"darkblue",fontWeight:"bold"}}>Venue</span> : C-209 & 210</div>
                 </div>
           <img src={parishkar} alt="" />
 
@@ -110,21 +108,20 @@ function Events() {
        <div className='box1'>
           <div style={{fontSize:"4VW",paddingBottom:"2vw",fontWeight:"bold"}}>STARTUP IDEA COMPETITION</div>
         <div style={{display:"flex",justifyContent:"space-around",alignContent:"center",paddingBottom:"2vw"}}>
-                    <div style={{fontSize:"1.5vw"}}> <span >Date</span>: 14th dec 2023 (D1) 
-                    <br />15th dec 2023 (D2) 
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"darkblue",fontWeight:"bold"}}>Date</span>: 15th DEC 2023 (D2) 
                     <br />
-                    16th dec 2023 (D3) 
+                    16th DEC 2023 (D3) 
                    </div>
-                    <div style={{fontSize:"1.5vw"}}> <span >Time</span> :		10:00 a.m to 5:00 p.m D2
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"darkblue",fontWeight:"bold"}}>Time</span> :		10:00AM to 5:00PM (D2)
                     <br />
-10:00 a.m to 3:00 p.m D3	
+10:00AM to 3:00PM (D3)	
 
                     
 
 
 
                     		</div>
-                    <div style={{fontSize:"1.5vw"}}> <span >Venue</span> : A117 & 118</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"darkblue",fontWeight:"bold"}}>Venue</span> : A117 & 118</div>
                 </div>
           <img src={startup} alt="" />
 

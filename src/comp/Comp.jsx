@@ -49,11 +49,11 @@ function Comp() {
             }}>
                     <h6 className='col float-start' style={{alignItems:"center",textAlign:"center" , fontSize:"3.5vw"}} >REVERSE SHARK TANK</h6>
                 <div style={{display:"flex",justifyContent:"space-around",alignContent:"center",paddingBottom:"2vw"}}>
-                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Date</span>: 15th dec 2023 (D2) 
-                    <br />   16th dec 2023 (D3)</div>
-                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Time</span> :10:00 a.m to 5:00 p.m D2 
-                    <br />10:00 a.m to 3:00 p.m D3	</div>
-                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Venue</span> :  APJ Abdul kalam Audi & A001 </div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#ff7900",fontWeight:"bold"}}>Date</span>: 15th DEC 2023 (D2) 
+                    <br />   16th DEC 2023 (D3)</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#ff7900",fontWeight:"bold"}}>Time</span> :10:00AM to 5:00PM (D2) 
+                    <br />10:00AM to 3:00PM (D3)	</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#ff7900",fontWeight:"bold"}}>Venue</span> :  APJ Abdul kalam Audi & A001 </div>
                 </div>
                 <img src={Reverse} alt="" />
 
@@ -71,6 +71,7 @@ function Comp() {
 
 
                 </div>
+                <div style={{padding:"1vw",color:'#4cbb17',textAlign:"center"}}>SPOT REGISTRATIONS</div>
             </div>
 
             <div className='box' >
@@ -83,13 +84,14 @@ function Comp() {
             }}>
                     <h6 className='col float-start' style={{alignItems:"center",textAlign:"center",fontSize:"3.5vw" }} >Shadows and Secrets</h6>
                  <div style={{display:"flex",justifyContent:"space-around",alignContent:"center",paddingBottom:"2vw"}}>
-                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Date</span>: NA
-                    <br />  NA</div>
-                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Time</span> :10:00 a.m to 1:00 p.m
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#ff7900",fontWeight:"bold"}}>Date</span>: 15th DEC 2023 (D2) 
+                    <br />   16th DEC 2023 (D3)
+                    </div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#ff7900",fontWeight:"bold"}}>Time</span> :10:00AM to 1:00PM (D2)
 
 
-                    <br />10:00 a.m to 3:00 p.m	</div>
-                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Venue</span> : NA</div>
+                    <br />10:00AM to 3:00PM	(D3)</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#ff7900",fontWeight:"bold"}}>Venue</span> : NA</div>
                 </div>
                 <img src={shadow} alt="" />
 
@@ -103,6 +105,7 @@ function Comp() {
 
 
                 </div>
+                <div style={{padding:"1vw",color:'#4cbb17',textAlign:"center"}}>SPOT REGISTRATIONS</div>
             </div>
             <div className='box' >
                 <div className='row headings' style={{
@@ -114,13 +117,13 @@ function Comp() {
             }}>
                     <h6 className='col float-start' style={{alignItems:"center",textAlign:"center",fontSize:"3.5vw"}} >Revamp</h6>
                  <div style={{display:"flex",justifyContent:"space-around",alignContent:"center",paddingBottom:"2vw"}}>
-                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Date</span>: 15th dec 2023 (D2) 
-                    <br />   16th dec 2023 (D3)</div>
-                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Time</span> : 10:00 a.m to 5:00 p.m D2
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#ff7900",fontWeight:"bold"}}>Date</span>: 15th DEC 2023 (D2) 
+                    <br />16th DEC 2023 (D3)</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#ff7900",fontWeight:"bold"}}>Time</span> : 10:00AM to 5:00PM (D2)
 
 
-                    <br />10:00 a.m to 3:00 p.m D3		</div>
-                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Venue</span> : B-214 & B-215 </div>
+                    <br />10:00AM to 3:00PM (D3)		</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#ff7900",fontWeight:"bold"}}>Venue</span> : B-214 & B-215 </div>
                 </div>
                 <img src={revamp} alt="" />
 
@@ -133,6 +136,7 @@ function Comp() {
                    Have you always thought about doing things differently? Well then, here’s your chance! Re-design how an existing product can be. Break through the roof for your pitch: slide us through your presentations, conduct research and analyse every aspect in detail - the competition, the valuation, the strategy and everything in-between. Enter the world of what-ifs and make your mark
 
                 </div>
+                <div style={{padding:"1vw",color:'#4cbb17',textAlign:"center"}}>SPOT REGISTRATIONS</div>
             </div>
            <div className='box' >
                 <div className='row headings' style={{
@@ -144,13 +148,13 @@ function Comp() {
             }}>
                     <h6 className='col float-start' style={{alignItems:"center",textAlign:"center",fontSize:"3.5vw"}} >BRAND BLEND</h6>
                 <div style={{display:"flex",justifyContent:"space-around",alignContent:"center",paddingBottom:"2vw"}}>
-                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Date</span>: 15th dec 2023 (D2) 
-                    <br />   16th dec 2023 (D3)</div>
-                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Time</span> : 10:00 a.m to 5:00 p.m D2
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#ff7900",fontWeight:"bold"}}>Date</span>: 15th DEC 2023 (D2) 
+                    <br />   16th DEC 2023 (D3)</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#ff7900",fontWeight:"bold"}}>Time</span> : 10:00AM to 5:00PM (D2)
 
 
-                    <br />10:00 a.m to 3:00 p.m D3		</div>
-                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Venue</span> :Open Air Audi</div>
+                    <br />10:00AM to 3:00PM (D3)		</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#ff7900",fontWeight:"bold"}}>Venue</span> :Open Air Audi</div>
                 </div>
                 <img src={Brand_blend} alt="" />
 
@@ -164,6 +168,7 @@ function Comp() {
 
 
                 </div>
+                <div style={{padding:"1vw",color:'#4cbb17',textAlign:"center"}}>SPOT REGISTRATIONS</div>
             </div>
             <div className='box' >
                 <div className='row headings' style={{
@@ -175,13 +180,13 @@ function Comp() {
             }}>
                     <h6 className='col float-start' style={{alignItems:"center",textAlign:"center",fontSize:"3.5vw"}} >ENTREQUEST</h6>
                <div style={{display:"flex",justifyContent:"space-around",alignContent:"center",paddingBottom:"2vw"}}>
-                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Date</span>: 15th dec 2023 (D2) 
-                    <br />   16th dec 2023 (D3)</div>
-                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Time</span> : 10:00 a.m to 5:00 p.m D2
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#ff7900",fontWeight:"bold"}}>Date</span>: 15th DEC 2023 (D2) 
+                    <br />   16th DEC 2023 (D3)</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#ff7900",fontWeight:"bold"}}>Time</span> : 10:00AM to 5:00PM (D2)
 
 
-                    <br />10:00 a.m to 3:00 p.m D3		</div>
-                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Venue</span> : A-301 & A-302</div>
+                    <br />10:00AM to 3:00PM (D3)		</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#ff7900",fontWeight:"bold"}}>Venue</span> : A-301 & A-302</div>
                 </div>
                 <img src={EntreQuest} alt="" />
 
@@ -196,6 +201,7 @@ function Comp() {
 
 
                 </div>
+                <div style={{padding:"1vw",color:'#4cbb17',textAlign:"center"}}>SPOT REGISTRATIONS</div>
             </div>
             <div className='box' >
                 <div className='row headings' style={{
@@ -207,13 +213,13 @@ function Comp() {
             }}>
                     <h6 className='col float-start' style={{alignItems:"center",textAlign:"center",fontSize:"3.5vw"}} >ADJAM</h6>
                 <div style={{display:"flex",justifyContent:"space-around",alignContent:"center",paddingBottom:"2vw"}}>
-                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Date</span>: 15th dec 2023 (D2) 
-                    <br />   16th dec 2023 (D3)</div>
-                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Time</span> : 10:00 a.m to 5:00 p.m D2
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#ff7900",fontWeight:"bold"}}>Date</span>: 15th DEC 2023 (D2) 
+                    <br />   16th DEC 2023 (D3)</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#ff7900",fontWeight:"bold"}}>Time</span> : 10:00AM to 5:00PM (D2)
 
 
-                    <br />10:00 a.m to 3:00 p.m D3		</div>
-                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#fff0de"}}>Venue</span> : B-306</div>
+                    <br />10:00AM to 3:00PM (D3)		</div>
+                    <div style={{fontSize:"1.5vw"}}> <span style={{color:"#ff7900",fontWeight:"bold"}}>Venue</span> : B-306</div>
                 </div>
                 <img src={Ad_Jam} alt="" />
 

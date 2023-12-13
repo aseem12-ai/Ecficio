@@ -85,9 +85,9 @@ const Body = () => {
  <div class="card card1" style={{maxWidth:"100%"}} >
   <div class="card-body" style={{display:"flex",justifyContent:"center",alignContent:"center",flexDirection:"column"}}>
     {/* <img src={svg} alt="" style={{position:"absolute"}} /> */}
-    <h5 class="card-title " style={{textAlign:"center",color:"#fff"}}>ABOUT ECFICIO</h5>
+    <h5 class="card-title " style={{textAlign:"center",color:"#fff",fontSize:"5vw"}}>ABOUT ECFICIO</h5>
     {/* <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> */}
-    <p class="card-text" style={{color:"wheat"}}>
+    <p class="card-text" style={{color:"wheat",fontSize:"3vw"}}>
       The annual entrepreneurship fest of VNRVJIET is now back with another edition to immerse you into the world of startup tech! Equip your innovative ideas with knowledge and exposure. Gain access to engaging workshops, exciting competitions with cashable prizes and get a chance to meet renowned tech enthusiasts. Register Now!
 
     </p>

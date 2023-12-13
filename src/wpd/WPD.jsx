@@ -17,7 +17,8 @@ import p4 from '../assets/pan-4.jpg';
 import A from '../assets/1.jpeg';
 import Navbar  from '../Navbar'
 import Footer1 from '../Footer1/Footer1'
-
+import market from '../Events_logo/marketing 101.png'
+import sharath from '../Events_logo/m1.png'
 
 function WPD() {
   return (
@@ -57,7 +58,7 @@ function WPD() {
       margin:"3em"
         }}>
         <img src={GDSC} className='gdscimg' 
-        style={{borderRadius:"2em"}}/>
+        style={{borderRadius:"2vw"}}/>
         </div>
         {/* <img src={Ellipse2} className='col-8 col-sm-8 col-md-8  col-lg-8 ellipse2 '/> */}
         <div className='pannelcontent' 
@@ -72,7 +73,7 @@ function WPD() {
           border:"1px solid black", 
           background:"linear-gradient(180deg, rgba(23, 78, 185, 0.90) 0%, rgba(167, 249, 215, 0.00) 100%)",
           padding:"1.5em",
-          borderRadius:"2em"}}>
+          borderRadius:"2em",fontSize:"3vw"}}>
      Dive into the forefront of innovation with Google Developer Student Clubs Talks. This electrifying platform showcases visionaries, tech maestros, and industry wizards, unraveling the art of coding dreams into reality. Brace for an epic journey where ideas spark , ideas Ignite! Immerse yourself in a dynamic fusion of wisdom and innovation. Our Talks bring visionaries and pioneers to center stage, unraveling the secrets of success in the entrepreneurial cosmos. Brace for a symphony of inspiration that transcends the ordinary because at GDSC Talks, we don't just talk about the future, we shape it!  Join the revolution – GDSC Talks, where innovation finds its voice!
 
       </div>
@@ -100,7 +101,7 @@ function WPD() {
         flexDirection:"column"}}>
         <h3 style={{color:"#080808",paddingTop:"1em"}}>Mr. Jignesh Talasila <span style={{fontSize:'0.7em'}}>Co-Founder & C.E.O Of PerspectAI</span>.</h3>
         {/* <h1 class="card-title" style={{marginRight:"1.2em",paddingTop:"1em"}}></h1> */}
-        <p class="card-text" style={{paddingTop:"1em",wordSpacing:"0.5em",fontSize:"3vw"}}>The Co-Founder & CEO of PerspectAI based in Hyderabad, Mr. Jignesh has steered PerspectAI towards a mission that transcends traditional hiring. His expertise lies in leveraging these tools to unravel an individual's true potential, revolutionizing the landscape by bridging the gap between jobs and job seekers. Jignesh's visionary leadership and commitment to innovation mark a transformative era in the pursuit of unlocking human potential at PerspectAI.
+        <p class="card-text" style={{paddingTop:"1em",wordSpacing:"0.5em",fontSize:"2vw"}}>The Co-Founder & CEO of PerspectAI based in Hyderabad, Mr. Jignesh has steered PerspectAI towards a mission that transcends traditional hiring. His expertise lies in leveraging these tools to unravel an individual's true potential, revolutionizing the landscape by bridging the gap between jobs and job seekers. Jignesh's visionary leadership and commitment to innovation mark a transformative era in the pursuit of unlocking human potential at PerspectAI.
 </p>
       </div>
       
@@ -146,7 +147,7 @@ function WPD() {
         <h3 style={{color:"#080808",paddingTop:"1em",marginTop:"2vw"}}>Mr. Madhu Vadlamani
   <span style={{fontSize:'0.7em'}}>Global Data Center</span>.</h3>
         {/* <h1 class="card-title" style={{marginRight:"1.2em",paddingTop:"1em"}}></h1> */}
-        <p class="card-text" style={{paddingTop:"1em",wordSpacing:"0.5em",fontSize:"3vw"}}>Embark on a data-driven journey with Mr. Madhu Vadlamani, a dynamic panelist at GDSC Talks. Hailing from the vibrant city of Hyderabad, Mr Madhu is not just a GDC (Global Data Center) employee; he's the embodiment of an "employee with an entrepreneurial mindset." With a robust skill set encompassing Data Analytics, Artificial Intelligence, Cloud Computing, Content Management, and Business Intelligence. His professional voyage is a testament to his commitment to pushing the boundaries of technology, making him a beacon of inspiration at the intersection of analytics and entrepreneurship.
+        <p class="card-text" style={{paddingTop:"1em",wordSpacing:"0.5em",fontSize:"2vw"}}>Embark on a data-driven journey with Mr. Madhu Vadlamani, a dynamic panelist at GDSC Talks. Hailing from the vibrant city of Hyderabad, Mr Madhu is not just a GDC (Global Data Center) employee; he's the embodiment of an "employee with an entrepreneurial mindset." With a robust skill set encompassing Data Analytics, Artificial Intelligence, Cloud Computing, Content Management, and Business Intelligence. His professional voyage is a testament to his commitment to pushing the boundaries of technology, making him a beacon of inspiration at the intersection of analytics and entrepreneurship.
 
 </p>
       </div>
@@ -197,7 +198,7 @@ function WPD() {
         flexDirection:"column"}}>
         <h3 style={{color:"#080808",paddingTop:"1em"}}>Mr. Venkata Subramanyam <span style={{fontSize:'0.7em'}}>Co-founder & CEO of Atomstate</span>.</h3>
         {/* <h1 class="card-title" style={{marginRight:"1.2em",paddingTop:"1em"}}></h1> */}
-        <p class="card-text" style={{paddingTop:"1em",wordSpacing:"0.5em",fontSize:"3vw"}}>Meet Mr. Venkata Subramanyam, the ingenious Co-founder & CEO of Atomstate, a visionary deep-tech disruptor based in the heart of Hyderabad. Hailing from this city of innovation, Venkata is not just a Business Strategist; he's a revolutionary force in the AIML realm. With an unparalleled knack for transforming customer data, Atomstate pioneers hyper-personalized solutions through its AtomAX and AtomDops platforms. Venkata's expertise is a beacon in tailoring scalable AI models, creating an elegant and impactful customer experience.
+        <p class="card-text" style={{paddingTop:"1em",wordSpacing:"0.5em",fontSize:"2vw"}}>Meet Mr. Venkata Subramanyam, the ingenious Co-founder & CEO of Atomstate, a visionary deep-tech disruptor based in the heart of Hyderabad. Hailing from this city of innovation, Venkata is not just a Business Strategist; he's a revolutionary force in the AIML realm. With an unparalleled knack for transforming customer data, Atomstate pioneers hyper-personalized solutions through its AtomAX and AtomDops platforms. Venkata's expertise is a beacon in tailoring scalable AI models, creating an elegant and impactful customer experience.
 
 </p>
       </div>
@@ -252,7 +253,7 @@ function WPD() {
       }}>
         <h3 style={{color:"#080808",textAlign:"right",marginLeft:"-2.5em"}}>Sunil Yadavalli<span style={{fontSize:'0.7em'}}> Head of business strategy IDS</span>.</h3>
         {/* <h1 class="card-title" style={{marginRight:"1.2em",paddingTop:"1em"}}></h1> */}
-        <p class="card-text" style={{paddingTop:"1em",wordSpacing:"0.01em",fontSize:"3vw"}}>Introducing Sunil Subrahmanyam Yadavalli, the brilliant Head of Business Strategy at Information Data Systems (IDS) and a proud native of Hyderabad. With a robust professional journey, Sunil's expertise extends from a Programmer Analyst at Cognizant to Management Intern roles at Maeflower Consulting and July Systems (Acquired by Cisco). Their academic prowess is equally impressive, holding an MBA in Systems and Finance from Symbiosis Institute of Digital & Telecom Management and a Master's Degree in Computer Software Engineering from Vellore Institute of Technology. Sunil, a lifelong learner, has garnered certifications including "Blockchain Business Models" from Duke University, showcasing a commitment to staying at the forefront of technological evolution
+        <p class="card-text" style={{paddingTop:"1em",wordSpacing:"0.01em",fontSize:"2vw"}}>Introducing Sunil Subrahmanyam Yadavalli, the brilliant Head of Business Strategy at Information Data Systems (IDS) and a proud native of Hyderabad. With a robust professional journey, Sunil's expertise extends from a Programmer Analyst at Cognizant to Management Intern roles at Maeflower Consulting and July Systems (Acquired by Cisco). Their academic prowess is equally impressive, holding an MBA in Systems and Finance from Symbiosis Institute of Digital & Telecom Management and a Master's Degree in Computer Software Engineering from Vellore Institute of Technology. Sunil, a lifelong learner, has garnered certifications including "Blockchain Business Models" from Duke University, showcasing a commitment to staying at the forefront of technological evolution
 
 </p>
       </div>
@@ -301,7 +302,14 @@ function WPD() {
         MARKETING WORKSHOP
       </div>
       </div>
-      <div className='marketingcontent' style={{textAlign:"center",maxWidth:"60%",display:"flex",justifyContent:"center",alignItems:"center",marginLeft:"23vw",marginTop:"4em"}}>
+     
+        <div   style={{
+      margin:"3em"
+        }}>
+        <img src={market} className='gdscimg' 
+        style={{borderRadius:"2vw"}}/>
+        </div>
+      <div className='marketingcontent' style={{margin:"4vw",fontSize:"3vw",border:"0.5vw solid blue",padding:"2vw",borderRadius:"3vw",background:"#fff5c2",color:"purple",fontWeight:'2vw'}}>
       Dive into the world of marketing and learn about the art of building brands. Join us for a workshop where you learn secrets of impactful branding. Elevate your skills and transform your ideas into extraordinary success stories! Are you ready to unlock the power of tech- savvy marketing?
 
 
@@ -312,11 +320,11 @@ function WPD() {
       
     <div className='xyz' style={{display:"flex",justifyContent:"center",alignContent:"center",marginTop:"1em"}}>
 
-          <img src={Img} className='profileimage' style={{borderRadius:"50%",height:"38vh"}}/>
+          <img src={sharath} className='profileimage' style={{borderRadius:"50%",height:"38vh"}}/>
           
          
     </div>
-          <div style={{textAlign:"center"}}>NAME1</div>
+          <div style={{textAlign:"center", fontSize:"3vw",fontWeight:"bold"}}>Dr Sharath Chandra Reddy Aduri </div>
 
 
       < div  style={

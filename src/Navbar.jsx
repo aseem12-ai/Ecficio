@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { FaBars } from 'react-icons/fa'
 import {links} from './data'
-import logo from './img/logo.png'
+import logo1 from './Events_logo/logo1.png'
 
 const Navbar = () => {
 
@@ -19,7 +19,7 @@ const toggleLinks=()=>{
       <div className="nav-center">
         <div className="nav-header">
           <a href="/">
-          <img src={logo} alt=""  className='logo'/>
+          <img src={logo1} alt=""  className='logo'/>
           </a>
           {/* <h2 style={{padding:"0px"}}>ECFICIO 6.0 H</h2> */}
           <button className='nav-toggle' onClick={toggleLinks}>
