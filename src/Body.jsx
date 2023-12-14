@@ -2,7 +2,7 @@ import React from 'react'
 import logo from './img/ecfcio_main_poster.png'
 
 
-import events from './img/events.png'
+import events from './img/events.jpeg'
 import w_pd from './img/w&pd.png'
 
 // import c1 from './carousel/c-1.jpg'

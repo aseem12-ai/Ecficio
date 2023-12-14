@@ -33,7 +33,7 @@ function Events() {
       alignContent:"center",
       marginTop:"10vw"}} className='box-1'>
         
-        <button className='btn btn-one' style={{padding:"2.5vw 5vw"}}>REGISTER NOW</button>
+        <button className='btn btn-one' style={{padding:"2.5vw 5vw",fontWeight:"bold"}}>REGISTER NOW</button>
         </div>
         </form>
       <div className='temp text-center '>

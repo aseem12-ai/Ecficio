@@ -78,7 +78,7 @@
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  margin-top: 3em;
+  margin-top: 3vw;
   margin-bottom: 4vw;
   /* height: 100vh; */
 }
@@ -89,7 +89,7 @@
   /* font-size: 16px; */
   background: #ffff33;
   color: #C613CA;
-  border-radius: 50px;
+  border-radius: 4vw;
   border: none;
   font-weight: bold;
 

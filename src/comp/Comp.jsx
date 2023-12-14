@@ -71,7 +71,7 @@ function Comp() {
 
 
                 </div>
-                <div style={{padding:"1vw",color:'#4cbb17',textAlign:"center"}}>SPOT REGISTRATIONS</div>
+                <div style={{padding:"1vw",color:'#4cbb17',textAlign:"center",fontSize:"5vw"}}>SPOT REGISTRATIONS</div>
             </div>
 
             <div className='box' >
@@ -105,7 +105,7 @@ function Comp() {
 
 
                 </div>
-                <div style={{padding:"1vw",color:'#4cbb17',textAlign:"center"}}>SPOT REGISTRATIONS</div>
+                <div style={{padding:"1vw",color:'#4cbb17',textAlign:"center",fontSize:"5vw"}}>SPOT REGISTRATIONS</div>
             </div>
             <div className='box' >
                 <div className='row headings' style={{
@@ -136,7 +136,7 @@ function Comp() {
                    Have you always thought about doing things differently? Well then, here’s your chance! Re-design how an existing product can be. Break through the roof for your pitch: slide us through your presentations, conduct research and analyse every aspect in detail - the competition, the valuation, the strategy and everything in-between. Enter the world of what-ifs and make your mark
 
                 </div>
-                <div style={{padding:"1vw",color:'#4cbb17',textAlign:"center"}}>SPOT REGISTRATIONS</div>
+                <div style={{padding:"1vw",color:'#4cbb17',textAlign:"center",fontSize:"5vw"}}>SPOT REGISTRATIONS</div>
             </div>
            <div className='box' >
                 <div className='row headings' style={{
@@ -168,7 +168,7 @@ function Comp() {
 
 
                 </div>
-                <div style={{padding:"1vw",color:'#4cbb17',textAlign:"center"}}>SPOT REGISTRATIONS</div>
+                <div style={{padding:"1vw",color:'#4cbb17',textAlign:"center",fontSize:"5vw"}}>SPOT REGISTRATIONS</div>
             </div>
             <div className='box' >
                 <div className='row headings' style={{
@@ -201,7 +201,7 @@ function Comp() {
 
 
                 </div>
-                <div style={{padding:"1vw",color:'#4cbb17',textAlign:"center"}}>SPOT REGISTRATIONS</div>
+                <div style={{padding:"1vw",color:'#4cbb17',textAlign:"center",fontSize:"5vw"}}>SPOT REGISTRATIONS</div>
             </div>
             <div className='box' >
                 <div className='row headings' style={{
